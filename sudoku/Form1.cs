@@ -167,7 +167,7 @@ namespace sudoku
                         }
                     }
 
-                    MessageBox.Show("Try More...");
+                    MessageBox.Show("دوبارهامتحان کنید.");
                     return;
                 }
             }
@@ -195,7 +195,7 @@ namespace sudoku
                             continue;
                         }
 
-                        MessageBox.Show("Try More...");
+                        MessageBox.Show("دوباره امتحان کنید.");
                         return;
                     }
                 }
