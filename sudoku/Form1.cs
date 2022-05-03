@@ -43,7 +43,9 @@ namespace sudoku
 
                 for (int j = 0; j < 9; j++)
                 {
-                    if (i < 3 && j < 3 || i > 5 && j > 5
+                    if (i < 3 && j < 3 
+                        ||
+                        i > 5 && j > 5
                         || 
                         i < 3 && j > 5 || i > 5 && j < 3
                         ||
